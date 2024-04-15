@@ -38,4 +38,16 @@ Steps for construting the App.
 
 
 
-##frontend
+
+## Frontend
+1. get into root folder and run "npm create vite@latest"
+2. Then get inside the frontend folder and run >npm install--> to get the dependencies of react
+3. then into app.css & index.css remove all the text and removed all the code from App.jsx except return and put hi there
+4. Test using >npm run dev; ugly hi there
+5. Then, create folder components inside src and inside components create file Createtodo.jsx
+6. Interesting thing, he used *export function* rather than *module.exports*
+7. Create new file /same location  Todos.jsx
+8. Then, taught us to use for loop for multiple items in array
+9. Then, CORS error came; >npm install CORS under backend/index.js
+10. Tried hitting BE from FE, infinite request coz of *fetch approach*, stucked in a loop as too many request hitting the end point
+11. Corrected the Components file, working fine.
