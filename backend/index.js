@@ -42,13 +42,13 @@ app.put("/completed", async (req, res) => {
     const updatePayload = req.body;
     const parsedPayload = updateTodo.safeParse(updatePayload)
     if (!parsedPayload.success) {
-        res.status(411).json({
+        res.status(400).json({
             msg: "You sent wrong inputs"
         })
         return;
     }
     // update function of DB takes 2 arguements first loaction identified by ID and "what to change"; here "completed"
-    await todo.update({
+    await todo.updateOne ({
         _id: req.body.id
     }, {
         completed: true

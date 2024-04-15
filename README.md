@@ -34,6 +34,3 @@ Steps for construting the App.
 11. create mongo db schema
 12. Then, import mongoDB inside index.js and add data insertion over MongoDB
 13. Then Test backend using Postman
-
-
-hdsdkdklddlalkdhalh
