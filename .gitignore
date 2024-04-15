@@ -1,6 +1,6 @@
 # dependencies
-/node_modules
-/.pnp
+/backend/node_modules
+/backend/.pnp
 .pnp.js
 
 # testing
@@ -23,3 +23,9 @@ yarn-error.log*
 # zip files
 *.zip
 *.rar
+
+
+
+
+
+
